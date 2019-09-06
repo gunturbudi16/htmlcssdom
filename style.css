@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /*border: 1px solid;*/
+  }
+/* html */
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: url(./assets/images/email-pattern.png);
+  font-family: "Open Sans", Helvetica, sans-serif;
+}
+/* header */
+a{
+    text-decoration: none;
+    color: inherit;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background:url(./assets/images/email-pattern.png);
+    color: orange;
+    border-bottom: solid 3px grey;
+    overflow-y: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+}
+nav{
+    float: right;
+    height: 100%;
+    font-family: "Pacifico", cursive;
+    font-size: 24px;
+}
+ul{
+    padding: 10px;
+    padding-top: 25px;
+    height: 100%;
+    margin-right: 50px;
+}
+li{
+    padding: 10px;
+    display: inline-block;
+}
+#logo{
+    padding: 25px;
+    float: left;
+    font-size: 30px;
+    font-family: "Pacifico", cursive;
+  }
+  a:hover {
+    color: orange;
+    font-weight: 700;
+  }
+  #logo:hover {
+    color: orange;
+  }
+
+#box-top{
+    width: 100%;
+    background:url(./assets/images/prism.png);
+    color: orange;
+    text-align: center;
+    margin-bottom: 50px;
+    border-bottom: 3px solid grey;
+  }
+  
+  #text-welcome{
+    padding-top: 200px;
+    width: auto;
+    height: 570px;
+  }
+  
+  #box-middle{
+    width: 100%;
+    position: relative;
+    text-align: center;
+  }
+  
+  #box-bottom{
+    width: 100%;
+    position: relative;
+    text-align: center;
+  }
+  
+  img{
+    margin-top: 20px;
+    height: 50px;
+  }
+  
+  .box{
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    margin:50px;
+    border: 1px solid #45b29a;
+  }
+  h1{
+    font-size: 68px;
+    line-height: 1.3;
+    letter-spacing: -2.5px;
+    font-family: 'Lobster', cursive;
+    font-weight: 700;
+  }
+  
+  h2{
+    font-size: 180%;
+  font-weight: 400;
+  font-family: 'Inconsolata', monospace;
+  }
+  
+  h3,h5{
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    color:orange;
+  }
+  
+  h3{
+    font-size: 30px;
+  }
+  
+  h5{
+    padding: 20px 0px;
+  }
+  
+  p{
+    padding:20px 10px 5px 10px;
+    color: #545454;
+    text-align: center;
+  }
+  
+  section{
+    position: relative;
+    top:100px;
+  }
+  
+  footer{
+    background: url(./assets/images/email-pattern.png);
+    border-top: 2px solid black;
+    position: relative;
+    top:100px;
+    color:orange;
+  }
