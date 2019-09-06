@@ -23,15 +23,18 @@ header{
     background:url(./assets/images/email-pattern.png);
     color: orange;
     border-bottom: solid 3px grey;
-    overflow-y: auto;
+    /* overflow-y: auto; */
     position: fixed;
     top: 0;
     left: 0;
     z-index: 10000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 nav{
-    float: right;
-    height: 100%;
+    /* float: right; */
+    /* height: 100%; */
     font-family: "Pacifico", cursive;
     font-size: 24px;
 }
@@ -47,7 +50,7 @@ li{
 }
 #logo{
     padding: 25px;
-    float: left;
+    /* float: left; */
     font-size: 30px;
     font-family: "Pacifico", cursive;
   }
@@ -144,4 +147,10 @@ li{
     position: relative;
     top:100px;
     color:orange;
+  }
+
+  @media only screen and (max-width: 500px) {
+    nav , #logo {
+      font-size: 16px;
+    }
   }
